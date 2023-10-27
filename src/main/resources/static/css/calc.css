@@ -1,0 +1,43 @@
+.calculator_screen {
+  background-color: rgb(57, 199, 255);
+}
+
+.btn_etc {
+  background-color: pink;
+}
+
+.btn_operator {
+  background-color: rgb(192, 255, 206);
+}
+
+.btn_func {
+  background-color: rgb(181, 124, 255);
+}
+
+.btn_num {
+  background-color: rgb(20, 216, 200);
+}
+
+.btn_delete {
+  background-color: rgb(221, 221, 221);
+  width: 100%;
+  height: 4rem;
+}
+
+.btn_equal {
+  background-color: rgb(192, 255, 206);
+}
+
+.ripple {
+  background-position: center;
+  transition: background 0.1s;
+}
+.ripple:hover {
+  background: white
+    radial-gradient(circle, transparent 1%, rgb(57, 199, 255) 1%) center/15000%;
+}
+.ripple:active {
+  background-color: rgb(181, 124, 255);
+  background-size: 100%;
+  transition: background 1s;
+}
